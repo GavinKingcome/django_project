@@ -1,0 +1,28 @@
+# Python / venv
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django
+db.sqlite3
+*.sqlite3
+*.log
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.DS_Store
+.idea/
+*.swp
+*.swo
+
+# Media and static files (optional - uncomment if needed)
+# media/
+# staticfiles/
