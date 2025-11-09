@@ -20,7 +20,18 @@ pip install django python-decouple
 django-admin startproject project_name .
 ```
 
-## 4. Setup .gitignore
+## 4. Create App.
+```bash
+python manage.py startapp app_name
+```
+
+## 5. Test the Server
+
+```bash
+python manage.py runserver
+```
+
+## 6. Setup .gitignore
 
 Copy from this project or create with:
 
@@ -30,7 +41,7 @@ Copy from this project or create with:
 - **pycache**/
 - .DS_Store
 
-## 5. Secure SECRET_KEY
+## 7. Secure SECRET_KEY
 
 In settings.py:
 
@@ -51,7 +62,7 @@ Create `.env.example`:
 SECRET_KEY=your-secret-key-here
 ```
 
-## 6. Finalize
+## 8. Finalize
 
 ```bash
 python manage.py migrate
